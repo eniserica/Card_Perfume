@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+:root{
+--Dark-cyan: hsl(158, 36%, 37%);
+--Cream: hsl(30, 38%, 92%);
+--Very-dark-blue: hsl(212, 21%, 14%);
+--Dark-grayish-blue: hsl(228, 12%, 48%);
+--White: hsl(0, 0%, 100%);
+}
+
+
+
+img{
+    width: 300px;
+    height: 430px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.bloco{
+    display: flex;
+    width: 500px;
+    height: 300px;
+   
+}
+
+.bloco-2{
+    width: 400px;
+    margin-left: 30px;
+   
+    
+}
+
+.titulo{
+    font-family: "Fraunces", sans-serif;
+
+}
+
+.subtitulo{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: var(--Very-dark-blue);
+}
+
+.numero-1{
+    font-family: "Fraunces", sans-serif;
+    color: var(--Dark-cyan);
+}
+
+.numero-2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    text-decoration: line-through;
+    position: relative;
+    left: 20px;
+    top: 22px;
+    color: var(--Very-dark-blue);
+    
+}
+
+.preco{
+    display: flex;
+}
+
+.subtitulo-1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    position: relative;
+    top: 10px;   
+    color: var(--Very-dark-blue); 
+    
+}
+
+.btn{
+    background-color: var(--Dark-cyan);
+    border: none;
+    border-radius: 8px;
+    width: 230px;
+    height: 40px;
+    color: var(--White);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content:center ;
+    align-items: center;
+
+
+}
+
+.btn-img{
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+.tudo{
+   
+    margin: 150px;
+    background-color: white;
+    height: 430px;
+    width: 570px;
+    border-radius: 8px;
+    position: relative;
+    left: 300px;
+}
+
+body{
+    background-color:var(--Cream);
+}
+
+a{
+    color: var(--White);
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
